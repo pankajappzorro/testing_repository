@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/llOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Booking No#  "
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="246985"
+            android:textColor="#FF7F50"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="17thSept"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" at "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="09:30 Ppm"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llOne"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPickuploc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 45, Las vegas,U.S"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/ic_icon_pickuploc"
+            />
+
+        <TextView
+            android:id="@+id/tvDroploc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 45, Las vegas,U.S"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_icon_droploc"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llTwo"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="#FF7F50"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="START TRIP"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF7F50"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            android:text="CANCEL BOOKING"/>
+    </LinearLayout>
+</RelativeLayout>

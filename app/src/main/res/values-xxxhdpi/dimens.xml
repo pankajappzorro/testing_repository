@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="create_acount">50sp</dimen>
+    <dimen name="margin_button">160dp</dimen>
+</resources>

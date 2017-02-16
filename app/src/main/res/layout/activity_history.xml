@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorYellow"
+        android:textAlignment="center"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listTrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar">
+
+    </android.support.v7.widget.RecyclerView>
+
+   <!-- <CalendarView
+        android:id="@+id/calHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar">
+    </CalendarView>
+-->
+    <TextView
+        android:id="@+id/btHistory"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="CHOOSE ANOTHER DATE"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/colorYellow"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

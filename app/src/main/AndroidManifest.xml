@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="app.driver.cabscout">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_icon_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:node="replace">
+        <activity
+            android:name="com.driver.cabscout.view.SplashActivity"
+            android:label="@string/title_activity_maps">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name="com.driver.cabscout.view.LoginActivity" />
+        <activity android:name="com.driver.cabscout.view.HomeScreenActivity" />
+        <activity android:name="com.driver.cabscout.view.SignUp" />
+        <activity android:name="com.driver.cabscout.view.CabCompanyActivity" />
+        <activity android:name="com.driver.cabscout.view.HistoryActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.driver.cabscout.view.LoginFacebookActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.driver.cabscout.view.SettingActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.driver.cabscout.view.ContactActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.driver.cabscout.view.CarProfileActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.driver.cabscout.view.BookingActivity"
+            android:windowSoftInputMode="stateHidden" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="410517842613797" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBMdEopjIkpVFAU_J04ECAdlI_57LPArZI" /><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1004748603493",
+    "firebase_url": "https://cabsocutdriver.firebaseio.com",
+    "project_id": "cabsocutdriver",
+    "storage_bucket": "cabsocutdriver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004748603493:android:9e8ecc2e1f52c148",
+        "android_client_info": {
+          "package_name": "com.driver.cabscout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004748603493-g5mbnj10q1cojlvs4id4m4qbr8vcgupj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgjklFeA-4m5K_FLCjNiBPX9p3IrKM0uo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
