@@ -9,9 +9,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="40dp"
         android:gravity="center"
-        android:layout_centerInParent="true"
+
         android:orientation="vertical"
         android:layout_marginBottom="30dp">
 
@@ -59,20 +59,21 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="PICK UP LOCATION" />
+            android:text="PICK UP LOCATION"
+            android:layout_marginTop="30dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="67 Fraklin St. New York, NY 10013,USA "
             android:textStyle="bold"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="5dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="DROP LOCATION"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="5dp"/>
 
         <TextView
             android:id="@+id/tvDrop"
@@ -93,11 +94,13 @@
         style="@style/Base.Widget.AppCompat.RatingBar.Indicator"
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
-        android:layout_above="@id/tvSubmit"
         android:numStars="5"
-       />
+        android:stepSize=".5"
+        android:rating="1.5"
 
-    <TextView
+        />
+
+   <!-- <TextView
         android:id="@+id/tvSubmit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -107,7 +110,7 @@
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:layout_alignParentBottom="true"
-        android:background="@color/colorYellow" />
+        android:background="@color/colorYellow" />-->
 
 
 </RelativeLayout>
